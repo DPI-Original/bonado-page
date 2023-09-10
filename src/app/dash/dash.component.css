@@ -1,0 +1,59 @@
+.pix-code {
+  margin-top: 32px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 8px 8px 8px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.text-pix-code {
+  color: var(--gray-600, #475467);
+  text-align: center;
+  font: 500 16px/20px "Inter", sans-serif
+}
+
+.pix-code .text-pix-code p {
+  color: var(--gray-600, #475467);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px
+}
+
+.body {
+  height: calc(100vh - 64px);
+  padding-top: 15%;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.btn,
+.btn-success {
+  width: -webkit-fill-available;
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    max-width: 350px;
+  }
+}

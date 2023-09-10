@@ -1,0 +1,317 @@
+img {
+  max-width: 100%;
+  display: block
+}
+
+button {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: none
+}
+
+.container {
+  width: 100%;
+  background: #fff;
+  width: 430px;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto
+}
+
+@media(max-width: 1440px) {
+  .container {
+    max-width: 122rem
+  }
+}
+
+.container {
+  padding-top: 36px
+}
+
+.container .container-price,
+.container .container-price * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: var(--gray-600, #475467);
+  font: var(--textsm-medium, 500 14px/20px "Inter", sans-serif)
+}
+
+.container .container-price {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.container .container-price .large-tab {
+  padding: 0px 0px 24px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 137px;
+  height: 73px
+}
+
+.container .container-price .large-tab .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0
+}
+
+.container .container-price .large-tab .content .heading-and-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -ms-flex-negative: 0;
+  flex-shrink: 0
+}
+
+.container .container-price .large-tab .content .heading-and-number .heading {
+  color: var(--gray-600, #475467);
+  font: var(--textsm-medium, 500 14px/20px "Inter", sans-serif)
+}
+
+.container .container-price .large-tab .content .heading-and-number .heading .number-and-badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0
+}
+
+.container .number {
+  color: var(--gray-2, #4f4f4f);
+  text-align: left;
+  font: 600 26px/38px "Inter", sans-serif
+}
+
+.container .line-1 {
+  margin-top: 8px;
+  position: relative;
+  right: -30px;
+  border-style: solid;
+  border-color: #dbd8d8;
+  border-width: 1px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 57px;
+  height: 0px;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(90deg) scale(1, 1);
+  transform: rotate(90deg) scale(1, 1)
+}
+
+.container .large-tab2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 163px;
+  height: 73px
+}
+
+.container .container-logo {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly
+}
+
+.container .text p {
+  color: var(--gray-600, #475467);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px
+}
+
+.container .pix-code {
+  margin-top: 32px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 8px 8px 8px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.container .pix-code .text-pix-code {
+  color: var(--gray-600, #475467);
+  text-align: center;
+  font: 500 16px/20px "Inter", sans-serif
+}
+
+.container .pix-code .text-pix-code p {
+  color: var(--gray-600, #475467);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px
+}
+
+.container .button,
+.container .button * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.container .button {
+  margin-top: 32px;
+  background: var(--primary-600, #7f56d9);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--primary-600, #7f56d9);
+  padding: 10px 16px 10px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 64px
+}
+
+.container .text {
+  color: var(--base-white, #ffffff);
+  font: 600 16px/20px "Inter", sans-serif
+}
+
+.container .copy-03-icon {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible
+}
+
+.container .container-how-to-pay {
+  margin-top: 32px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 16px 8px 16px 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  position: relative
+}
+
+.container .container-how-to-pay .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.container .container-how-to-pay .text h3 {
+  color: #475467;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px
+}
+
+.container .container-how-to-pay .featured-icon {
+  width: 100%;
+  max-width: 58px;
+  height: 58px
+}
+
+.container .container-how-to-pay .feature-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.container .container-how-to-pay .feature-text .content .text-and-supporting-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.container .container-how-to-pay .feature-text .content .text-and-supporting-text .supporting-text p {
+  color: var(--gray-600, #475467);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px
+}
+
+.rodape {
+  fill: white;
+  background-color: #191919;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.cFClCg {
+  margin-top: 20px;
+}
